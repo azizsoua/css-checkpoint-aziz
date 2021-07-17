@@ -1,0 +1,49 @@
+     *{
+         margin: 0;
+         padding: 0;
+     }
+     /* unvisited link */
+      a:link {
+        color: tomato;
+    }
+
+    /* visited link */
+    a:visited {
+        color: rgb(198, 211, 14);
+    }
+
+    /* mouse over element */
+    div:hover {
+        color: rgb(0, 196, 10);
+    } 
+
+    /* selected link */
+    a:active{
+        color: #ff00c8
+    }
+    li {
+    display: inline;
+    }
+
+     *{
+    font-family: roboto; 
+    }
+    
+    body {
+        background-color: #2F375B;
+      }
+    footer {
+        background-color: darkseagreen;
+        margin: 0;
+    }
+    a {
+        margin-left: 10px ;
+        margin-right: 10px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    ul{
+        margin-right: 20px;
+    }
